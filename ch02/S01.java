@@ -24,5 +24,5 @@ public class S01 {
         System.out.println(3.0 / (double)2);
         System.out.println(3 / 2.0); 
     }
-
+    //
 }

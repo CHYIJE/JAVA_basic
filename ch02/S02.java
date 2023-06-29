@@ -20,6 +20,9 @@ public class S02 {
         // 소수점 단위를 제한할 수 있다
         System.out.printf("%.2f\n", 10.0 / 3);
         // 소수점이 0.5이상이면 자동으로 반올림 된다 
-        System.out.printf("%.2f\n", 3.6666666666); 
+        System.out.printf("%.2f\n", 3.6666666666);
+        
+        String str2 = String.format("저는 %s\n", "정관호");
+        System.out.println(str2);
     }
 }
