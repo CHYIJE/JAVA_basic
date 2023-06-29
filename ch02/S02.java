@@ -1,5 +1,7 @@
 package ch02;
 
+import java.text.MessageFormat;
+
 public class S02 {
     public static void main(String[] args) {
         
@@ -22,7 +24,11 @@ public class S02 {
         // 소수점이 0.5이상이면 자동으로 반올림 된다 
         System.out.printf("%.2f\n", 3.6666666666);
         
+        // 문자열 포맷팅 / 문자열 보관법
         String str2 = String.format("저는 %s\n", "정관호");
         System.out.println(str2);
+        
+        String str3 = MessageFormat.format("저는 {0} {1} {0}\n", "이성계", 1148);
+        System.out.println(str3);
     }
 }
