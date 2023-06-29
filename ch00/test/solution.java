@@ -1,4 +1,4 @@
-package test;
+package ch00.test;
 
 public class solution {
         public int solution(int num1, int num2) {
