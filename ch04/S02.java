@@ -17,8 +17,8 @@ public class S02 {
         } else{
             System.out.println("숫자가 29보다 큽니다 ");
         }
-         
 
+     
         scanner.close();
 
     }
