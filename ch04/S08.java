@@ -6,9 +6,17 @@ public class S08 {
 
         int i = 0;
 
+        // while(i < 1000){
+        //     i++;
+        //     if(i % 2 == 0){     // 이 조건에서만 sysout작동하겠다
+        //         System.out.println(i); 
+        //                     }
+        // }
+ 
+
         while(i < 1000){
             i++;
-            if(i % 2 != 0){
+            if(i % 2 != 0){     //이 조건에서느 sysout 작동 안하겠다
                 // continue를 사용한 위치에서 현재 반복회차를 중지한다
                 // 다음 반복으로 넘어간다
                 continue; // 배치 위치를 잘 지정해야한다
