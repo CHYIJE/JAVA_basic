@@ -17,5 +17,7 @@ public class S03temp {
                 System.out.println("잘 입력함");
         }
 
+        
+
     }
 }
