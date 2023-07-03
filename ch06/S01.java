@@ -59,6 +59,7 @@ package ch06;
         // }
 
         // 메소드 (객체의 기능)
+        // 생성된 인스턴스에서 사용할 수 있는 기능
         public void cry(){
             System.out.println("미야옹");
         }
@@ -70,16 +71,18 @@ public class S01 {
         Cat cat;
 
         // new를 통해서 오브젝트에 인스턴스를 넣어 준다
-        // 
+        // 생성자가 요구하는 내용대로 작성 해야한다. 
         cat = new Cat("최냥이", 2);
 
-        Cat cat2 = new Cat(1);
+        cat.cry();
+
+        new Cat(1).cry();
 
         // 문제
         // 이름이 '길냥이'이고 나이가 1살인 고양이를 생성하시오.
         // 아래 빨간 줄을 없애보세요.
         // 괄호 안에는 값을 넣지 않습니다.
-        new Cat(); 
+        
         
     }
 }
