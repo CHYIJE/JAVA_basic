@@ -215,7 +215,7 @@
 //         // System.out.println(champ3.skill.getDamage());
 
         
-
+// 상속을 받으면 부모의 타입으로 공통화 하여 사용할 수 있다
 // Champ[] champArray = new Champ[3];
 
 // champArray[0] = new 애쉬();
