@@ -43,7 +43,7 @@ public class S01 {
         System.out.println("\"\".isBlank() : " + "".isBlank());
         System.out.println("\" \".isBlank() : " + " ".isBlank());
         System.out.println("\"  \".isBlank() : " + "  ".isBlank());
-
+        
         String bird1 = "오리";
         String bird2 = "오리";
 
