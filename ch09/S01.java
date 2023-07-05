@@ -35,11 +35,11 @@ public class S01 {
         String name2 = "cocacola";
         System.out.println("name1.split(\" \").lenght : " + name2.split("").length);
         
-        // 값이 없는 빈 문자열 ""aks true
+        // 값이 없는 빈 문자열 ""만 true
         System.out.println("\"\".isEmpty() : " + "".isEmpty());
         System.out.println("\" \".isEmpty() : " + " ".isEmpty());
 
-        // ""과 " " enfek true
+        // ""과 " " 둘다 true
         System.out.println("\"\".isBlank() : " + "".isBlank());
         System.out.println("\" \".isBlank() : " + " ".isBlank());
         System.out.println("\"  \".isBlank() : " + "  ".isBlank());
