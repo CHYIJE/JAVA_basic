@@ -3,7 +3,7 @@ package ch12;
 import lombok.AllArgsConstructor;
 
 // 제네릭
-// <> 안에 들어가는 T는 type의 약자이다
+// <> 안에 들어가는 T는 type의 약자이다.
 
 class Num <T extends Number>{
     // 필드가 정수 일수도 있고 실수 일수도 있는 경우
