@@ -16,7 +16,7 @@ public class S04 {
         System.out.println(map.get("사과"));
 
         map.remove("멜론");
-        // 이름과 값 둘 다 중요할 때 사용한다
+        // 이름과 값 둘 다 중요할 때 사용한다.
         System.out.println(map);
     }
 }
