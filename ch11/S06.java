@@ -15,7 +15,7 @@ public class S06 {
         System.out.println(queue);
 
         queue.poll();
-        // 선입선출 - 음식점, 은행 번호표, 롤큐
+        // 선입선출 - 음식점, 은행 번호표, 롤큐.
         System.out.println(queue);
     }
 }
