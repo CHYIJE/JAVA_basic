@@ -1,3 +1,5 @@
+package ch06;
+
 class Slave{
     String name;
 
