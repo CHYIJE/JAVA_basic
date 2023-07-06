@@ -12,7 +12,7 @@ public class S05 {
         stack.push("멜론");
 
         System.out.println(stack);
-
+//
         stack.pop();
 
         System.out.println(stack);
