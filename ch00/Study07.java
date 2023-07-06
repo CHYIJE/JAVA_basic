@@ -5,6 +5,7 @@ import lombok.NoArgsConstructor;
 import lombok.Setter;
 import lombok.ToString;
 
+// 롬복 라이브러리
 
 // 어노세티션을 읽어서 생성자를 만들어 준다
 @AllArgsConstructor
