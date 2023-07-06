@@ -1,3 +1,5 @@
+package ch07;
+
 class 종이접기책목차{
 
     // 종이로 학을 접는 방법(class)
