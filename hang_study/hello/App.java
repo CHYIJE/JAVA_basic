@@ -1,7 +1,9 @@
-package hang_study;
+package hang_study.hello;
 
 import java.util.Random;
 import java.util.Scanner;
+
+import hang_study.MenuImp;
 
 public class App {
     public static void main(String[] args) {

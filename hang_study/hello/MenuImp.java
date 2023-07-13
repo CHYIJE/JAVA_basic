@@ -3,6 +3,8 @@ package hang_study;
 import java.util.Random;
 import java.util.Scanner;
 
+import hang_study.hello.Menu;
+
 public class MenuImp implements Menu {
 
     @Override

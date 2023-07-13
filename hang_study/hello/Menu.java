@@ -1,4 +1,4 @@
-package hang_study;
+package hang_study.hello;
 
 public interface Menu {
     //작성된 메뉴 출력 기능

@@ -1,4 +1,4 @@
-package hang_study;
+package hang_study.hello;
 
 public class For {
     public static void main(String[] args) {
