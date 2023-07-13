@@ -22,11 +22,11 @@ public class DBClass {
  			System.out.println("연결성공");
   
 		} catch (ClassNotFoundException e) {
- 			// TODO Auto-generated catch block
+ 			
  			System.out.println("드라이브 로딩 실패");
             e.printStackTrace();
  		} catch (SQLException e) {
- 			// TODO Auto-generated catch block
+ 			
  			System.out.println("DB 연결 실패");
  		}
  
@@ -100,6 +100,8 @@ public class DBClass {
 				// System.out.println("패스워드 : " + userpw);
 				// System.out.println("이름 : " + name);
 				// System.out.println("이메일 : " + email);
+
+				
 			}
 		} catch (SQLException e) {
 			System.out.println("Database 연결중 에러가 발생 했습니다.");
