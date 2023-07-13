@@ -19,4 +19,4 @@ public class Emp {
     private int salary;
     
 }
-//각 객체에 값을 일괄적으로 넣기위해 넣음 
+//각 객체에 값을 일괄적으로 넣기위해 넣음 !
