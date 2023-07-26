@@ -20,12 +20,8 @@ class Post{
     public static class PostBuilder{
         public Post post;
 
-
-
     }
-
 }
-
 
 public class Study13 {
     public static void main(String[] args) {
@@ -37,8 +33,6 @@ public class Study13 {
         post.setTitle("제목");
         post.setContent("내용");
         post.setUserIdx(1);
-
-        
 
         // 클래스 내부에 Bulider 클래스를 만들고
         // 클래스의 필드명과 같은 set함수를 만들어 둔다
